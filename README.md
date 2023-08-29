@@ -1,5 +1,7 @@
 # Ultimate AI Application
 
+> Deployed Link: http://ultimateai.sarthak.app/
+
 ## Core Features:
 
 - NextJS 13
@@ -29,7 +31,7 @@ npm install
 
 ### Setting up the `.env` file
 
-```js
+````js
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
@@ -46,8 +48,7 @@ DATABASE_URL=
 STRIPE_API_KEY=
 STRIPE_WEBHOOK_SECRET=
 
-NEXT_PUBLIC_APP_URL="http://localhost:3000"
-```
+NEXT_PUBLIC_APP_URL="https://ultimateai.sarthak.app
 
 ### Setup Prisma
 
@@ -57,4 +58,4 @@ NEXT_PUBLIC_APP_URL="http://localhost:3000"
 
 ```shell
 npm run dev
-```
+````
